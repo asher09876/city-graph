@@ -39,7 +39,6 @@ def run_or_skip(
     **kwargs: object,
 ) -> tuple[gpd.GeoDataFrame, gpd.GeoDataFrame] | nx.Graph:
     """Execute function and skip on temporary implementation errors.
-
     This keeps tests expressive while allowing modules under active development
     to short-circuit gracefully.
     """
