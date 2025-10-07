@@ -973,7 +973,6 @@ def nx_hetero_graph_empty_node_types() -> nx.Graph:
     }
     return graph
 
-
 @pytest.fixture
 def nx_hetero_graph_missing_edge_types() -> nx.Graph:
     """Fixture for a heterogeneous graph missing edge_types metadata."""
